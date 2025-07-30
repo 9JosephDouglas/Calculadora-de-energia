@@ -1,0 +1,22 @@
+using System;
+
+class Sorteador {
+    static void Main() {
+        Console.WriteLine("Bem-vindo à calculadora de energia!");
+
+        Console.Write("\nDigite a massa do objeto (kg): ");
+        string entradaMassa = Console.ReadLine();
+
+        Console.Write("\nDigite a velocidade da luz (m/s): ");
+        string entradaLuz = Console.ReadLine();
+
+        // Converte as entradas para double
+        double m = double.Parse(entradaMassa);
+        double c = double.Parse(entradaLuz);
+
+        // Calcula E = m * c²
+        double e = m * Math.Pow(c, 2);
+
+        Console.WriteLine("\n A energia é: " + e + " joules");
+    }
+}
