@@ -1,6 +1,6 @@
 using System;
 
-class Sorteador {
+class Calculadora {
     static void Main() {
         Console.WriteLine("Bem-vindo à calculadora de energia!");
 
